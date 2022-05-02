@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:guzman/gridviewarticulos.dart';
+
 void main() {
-  runApp(MyApp());
+  runApp(CineMyApp());
 }
 
-class MyApp extends StatelessWidget {
+class CineMyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.green,
         ), //tema color global
-        home: const MyHomePage());
+        home: const PaginaInicial());
   }
 } //widget sin estado
 
