@@ -12,9 +12,8 @@ class CineMyApp extends StatelessWidget {
         title: 'Ej. Widview', //pestaña en web
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
-          primarySwatch: Colors.green,
+          primarySwatch: Colors.red,
         ), //tema color global
         home: const PaginaInicial());
   }
 } //widget sin estado
-
