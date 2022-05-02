@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:guzman/main.dart';
 
 class PaginaInicial extends StatefulWidget {
   const PaginaInicial({Key? key}) : super(key: key);
